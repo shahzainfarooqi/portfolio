@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1><i>Welcome, I'm Shahzain Farooqi</i></h1>
+            <p>A passionate developer who builds amazing websites and applications.</p>
+        </div>
+    </section>
+    <img src="dev.jpg" alt="">
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm a full-stack developer with 3 Year experience in various technologies. I love to create dynamic and responsive websites and web applications.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Python</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <video width="640" height="360" controls>
+                    <source src="project-video-file.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                
+                <div class="project-info">
+                    <h3>Project 1</h3>
+                    <p>Description of project 1.</p>
+                </div>
+            </div>
+            <div class="project">
+                <video width="640" height="360" controls>
+                    <source src="project2-video-file.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                
+                <div class="project-info">
+                    <h3>Project 2</h3>
+                    <p>Description of project 2.</p>
+                </div>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
